@@ -65,7 +65,7 @@ void DeviceRF::lightUp(uint8_t step)
 void DeviceRF::windowsRollerUnfold()
 {
     Command command;
-    command.emplace_back("UNFOLD");
+    command.emplace_back("RB-UNFOLD");
     command.emplace_back(std::to_string(0));
     sendSimpleCommand(command);
 }
@@ -73,7 +73,7 @@ void DeviceRF::windowsRollerUnfold()
 void DeviceRF::windowsRollerFold()
 {
     Command command;
-    command.emplace_back("FOLD");
+    command.emplace_back("RB-FOLD");
     command.emplace_back(std::to_string(0));
     sendSimpleCommand(command);
 }

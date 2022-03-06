@@ -1,6 +1,6 @@
 
 
-var address = "http://localhost:1234";
+var address = "http://" + location.host;
 
 function volUp()
 {
