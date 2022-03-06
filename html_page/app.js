@@ -47,7 +47,7 @@ function rollerUnfold()
     sendCommand("ROLLER_UNFOLD");
 }
 
-function rrollerFold()
+function rollerFold()
 {
     sendCommand("ROLLER_FOLD");
 }
